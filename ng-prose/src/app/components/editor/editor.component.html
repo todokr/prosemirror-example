@@ -1,0 +1,14 @@
+<div
+  id="editor"
+  class="editor"
+  (keydown)="handleKeyDown($event)"
+  (keydown.enter)="handleEnter($event)">
+  <app-menu
+    [show]="showMenu"
+    [menuItems]="menuItems"
+    [style.left]="caretX"
+    [style.top]="caretY"
+    [keyupSubject]="inputSubject"
+    (menuSelected)="handleSelectMenu($event)"
+    ></app-menu>
+</div>

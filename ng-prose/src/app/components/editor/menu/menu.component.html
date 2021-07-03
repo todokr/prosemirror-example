@@ -1,0 +1,9 @@
+<div class="menu" *ngIf="show">
+<ul>
+    <li
+      *ngFor="let item of menuItems; let i = index"
+      [class.selected]="selectedIndex === i">
+      <a (click)="selectMenu(item)">{{item.label}}</a>
+    </li>
+  </ul>
+</div>

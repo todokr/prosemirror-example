@@ -1,0 +1,36 @@
+{
+  "name": "prosemirror-sample",
+  "version": "1.0.0",
+  "description": "Just a sample project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "todokr",
+  "license": "ISC",
+  "dependencies": {
+    "prosemirror-commands": "^1.0.0",
+    "prosemirror-dropcursor": "^1.0.0",
+    "prosemirror-example-setup": "^1.1.2",
+    "prosemirror-gapcursor": "^1.0.0",
+    "prosemirror-history": "^1.0.0",
+    "prosemirror-inputrules": "^1.0.0",
+    "prosemirror-keymap": "^1.0.0",
+    "prosemirror-menu": "^1.0.0",
+    "prosemirror-schema-basic": "^1.1.2",
+    "prosemirror-schema-list": "^1.0.0",
+    "prosemirror-state": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/prosemirror-commands": "^1.0.0",
+    "@types/prosemirror-dropcursor": "^1.0.0",
+    "@types/prosemirror-gapcursor": "^1.0.0",
+    "@types/prosemirror-history": "^1.0.0",
+    "@types/prosemirror-inputrules": "^1.0.0",
+    "@types/prosemirror-keymap": "^1.0.0",
+    "@types/prosemirror-menu": "^1.0.0",
+    "@types/prosemirror-schema-list": "^1.0.0",
+    "@types/prosemirror-state": "^1.0.0",
+    "parcel": "^1.12.4"
+  }
+}
